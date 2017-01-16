@@ -59,14 +59,14 @@ browseButton=tkinter.Button(root1,text="Browse",command=browse) #we can add ,com
 browseButton.pack()
 
 #we are also calling the function we created upun pressing the button
-kmlButton=tkinter.Button(root1,text="Generate md5sum",command=md5sum)
-kmlButton.pack()
+md5sum_button=tkinter.Button(root1,text="Generate md5sum",command=md5sum)
+md5sum_button.pack()
 
-kmlButton=tkinter.Button(root1,text="Generate sha256",command=sha256)
-kmlButton.pack()
+sha256_button=tkinter.Button(root1,text="Generate sha256",command=sha256)
+sha256_button.pack()
 
-kmlButton=tkinter.Button(root1,text="Generate sha512",command=sha512)
-kmlButton.pack()
+sha512_button=tkinter.Button(root1,text="Generate sha512",command=sha512)
+sha512_button.pack()
 
 
 T=Text(root1, height=6, width=50)
